@@ -1,0 +1,72 @@
+@use './assets/reset';
+
+
+
+section{
+    position: relative;
+    background-color: #FCDDBC;
+    height: 100vh;
+    @extend #flex;
+    font-family: 'Bruno Ace', Times, serif;
+}
+
+.container{
+    height: 60vh;
+    width: 100vw;
+    .content{
+    @extend #flex;
+    height: 100%;
+    ul{
+    @extend #flex;
+    flex-direction: column;
+    width: 100%;
+
+    li{
+    padding: 3.6vh;
+    border-bottom: 1px solid black;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align:   start;
+    padding-left: 55%;
+    position: relative;
+    background-color: #ef959d;
+        color: rgb(9, 8, 8)
+
+    
+    span{
+    position: absolute;
+    top: O;
+    right: 10px;
+    padding-left: 1vw;
+    padding-right: 1.6vw;
+    }
+    &:nth-child(5){
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    }
+    &.active{
+    color: #FCDDBC;
+    }
+ 
+    }
+    }
+    }
+   
+}
+ .img-container {
+     position: absolute;
+     top:15%;
+     left: 9%;
+     height: 600px;
+     width: 450px;
+     background-color: #B8D8BA;
+    transform: rotate(20deg);
+    border: 7px solid #D9DBBC;
+    overflow: hidden;
+    border-radius: 12px;
+ }
+
+ img{
+    height: 600px;
+        width: 450px;
+        object-fit: cover;
+ }

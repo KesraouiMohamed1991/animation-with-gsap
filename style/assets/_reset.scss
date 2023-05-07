@@ -1,0 +1,24 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+li{
+    list-style-type:none;
+}
+
+
+#flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#bgi{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
